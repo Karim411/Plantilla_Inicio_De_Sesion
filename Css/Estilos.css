@@ -1,0 +1,355 @@
+@font-face {
+  font-family: "Raleway Light";
+  src:url(Fuente_Raleway/Raleway-Light.ttf);
+}
+@font-face {
+  font-family: "Raleway Thin";
+  src:url(Fuente_Raleway/Raleway-VariableFont_wght.ttf);
+}
+*{
+  margin: 0;
+  text-decoration: none;
+  border-style: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 0;
+  border-style: none;
+  outline: none;
+  color: rgba(0,0,0,1);
+}
+body{
+  background: -webkit-linear-gradient(to bottom,rgba(255, 255, 255, 1), rgba(0, 0, 0, 1)),url(../Imagenes/Imagen_Del_Fondo_1.jpg);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1),rgba(0, 0, 0, 1)),url(../Imagenes/Imagen_Del_Fondo_1.jpg);
+  background-size: cover;
+}
+
+.Iniciar_Sesion{
+  margin: 0;
+  width: 550px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: absolute;
+  left: 32%;
+  top: 20%;
+  border-radius:30px;
+  background: -webkit-linear-gradient(to bottom,rgba(80, 80, 80, 0.5), rgba(10, 10, 10, 0.5));
+  background: linear-gradient(to bottom, rgba(80, 80, 80, 0.5),rgba(10, 10, 10, 0.5));
+  box-shadow: -7px 7px 15px rgba(15,15,15,1);
+  text-align: center;
+  transition: 0.5s all ease;
+}
+
+.Titulo{
+  font-size: 50px;
+  color: rgba(0, 210, 210, 1);
+  font-family: "Raleway Light";
+  transition: 0.5s all ease;
+}
+.Titulo:hover{
+  color: rgba(0, 255, 85, 1);
+}
+.Entrada_De_Datos{
+  text-align: center;
+  font-size: 25px;
+  margin: auto;
+  width: 275px;
+  height: 45px;
+  font-family: "Raleway Thin";
+  color: rgba(200,200,200,1);
+  margin-right: 135px;
+  margin-left: 135px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  background:none;
+  border: 3px solid rgba(0, 210, 210, 0.5);
+  transition: 0.5s all ease;
+}
+input::-webkit-input-placeholder{
+  color: rgba(200,200,200,1);
+  transition: 0.5s all ease;
+}
+
+input:hover::-webkit-input-placeholder{
+  color: rgba(255,255,255,1);
+}
+
+input:-moz-placeholder{
+  color: rgba(200,200,200,1);
+  transition: 0.5s all ease;
+}
+
+input:hover:-moz-placeholder{
+  color: rgba(255,255,255,1);
+}
+
+input::-moz-placeholder{
+  color: rgba(200,200,200,1);
+  transition: 0.5s all ease;
+}
+
+input:hover::-moz-placeholder{
+  color: rgba(255,255,255,1);
+}
+input:-ms-input-placeholder{
+  color: rgba(200,200,200,1);
+  transition: 0.5s all ease;
+}
+
+input:hover:-ms-input-placeholder{
+  color: rgba(255,255,255,1);
+}
+.Entrada_De_Datos:focus{
+  margin-right: 85px;
+  margin-left: 85px;
+  width: 375px;
+  border: 3px solid rgba(0, 255, 85, 1);
+}
+.Entrada_De_Datos:hover{
+  color: rgba(255,255,255,1);
+}
+
+
+
+.Boton_Iniciar_Sesion{
+  text-align: center;
+  font-size: 25px;
+  margin: auto;
+  width: 200px;
+  height: 55px;
+  font-family: "Raleway Thin";
+  color: rgba(200,200,200,1);
+  margin-right: 170px;
+  margin-left: 170px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 30px;
+  background:none;
+  border: 3px solid rgba(0, 255, 85, 1);
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.Boton_Iniciar_Sesion:focus{
+
+}
+.Boton_Iniciar_Sesion:hover{
+  color: rgba(255,255,255,1);
+  margin-right: 150px;
+  margin-left: 150px;
+  width: 250px;
+  border: 3px solid rgba(0, 255, 0, 0.6);
+  background: rgba(0, 200, 85, 1);
+}
+
+.Enlace2{
+  width: auto;
+  height:auto;
+}
+.Icono_Red_Social{
+  font-size: 40px;
+  color: rgba(0, 255, 255, 1);
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.Icono_Red_Social:hover{
+  color: rgba(0, 255, 85, 1);
+}
+
+.ZonaSocial{
+  margin-top: 60px;
+  margin-bottom: 10px;
+  width: auto;
+  height: auto;
+}
+
+@media screen and (max-width:1000px){
+  .Iniciar_Sesion{
+    width: 450px;
+    height: auto;
+    left: 25%;
+  }
+  .Titulo{
+    font-size: 40px;
+  }
+  .Entrada_De_Datos{
+    font-size: 20px;
+    width: 200px;
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .Entrada_De_Datos:focus{
+    margin-right: 60px;
+    margin-left:60px;
+    width: 275px;
+  }
+  .Boton_Iniciar_Sesion{
+    font-size: 20px;
+    width: 150px;
+    height: 45px;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: 25px;
+    background:none;
+  }
+  .Boton_Iniciar_Sesion:hover{
+    width: 180px;
+    margin-right: 105px;
+    margin-left: 105px;
+  }
+  .ZonaSocial{
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width:700px){
+  .Iniciar_Sesion{
+    width: 400px;
+    height: auto;
+    left: 22%;
+  }
+  .Titulo{
+    font-size: 35px;
+  }
+  .Entrada_De_Datos{
+    font-size: 16px;
+    width: 200px;
+    margin-right: 95px;
+    margin-left: 95px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Entrada_De_Datos:focus{
+    margin-right: 50px;
+    margin-left:50px;
+    width: 275px;
+  }
+  .Boton_Iniciar_Sesion{
+    font-size: 20px;
+    width: 150px;
+    height: 45px;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: 20px;
+    background:none;
+  }
+  .Boton_Iniciar_Sesion:hover{
+    width: 180px;
+    margin-right: 105px;
+    margin-left: 105px;
+  }
+  .ZonaSocial{
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width:600px){
+  .Iniciar_Sesion{
+    width: 300px;
+    height: auto;
+    left: 20%;
+  }
+  .Titulo{
+    font-size: 35px;
+  }
+  .Entrada_De_Datos{
+    font-size: 16px;
+    width: 200px;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Entrada_De_Datos:focus{
+    margin-right: 20px;
+    margin-left:20px;
+    width: 250px;
+  }
+  .Boton_Iniciar_Sesion{
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 20px;
+    background:none;
+  }
+  .Boton_Iniciar_Sesion:hover{
+    width: 180px;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  .ZonaSocial{
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width:500px){
+  .Iniciar_Sesion{
+    width: 275px;
+    height: auto;
+    left: 15%;
+  }
+  .Titulo{
+    font-size: 30px;
+  }
+  .Entrada_De_Datos{
+    font-size: 14px;
+    width: 175px;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Entrada_De_Datos:focus{
+    margin-right: 20px;
+    margin-left:20px;
+    width: 225px;
+  }
+  .Boton_Iniciar_Sesion{
+    font-size: 16px;
+    width: 125px;
+    height: 45px;
+    margin-right: 70px;
+    margin-left: 70px;
+    background:none;
+  }
+  .Boton_Iniciar_Sesion:hover{
+    width: 175px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .Icono_Red_Social{
+    font-size: 30px;
+  }
+  .ZonaSocial{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:360px){
+  .Iniciar_Sesion{
+    width: 275px;
+    height: auto;
+    left: 10%;
+  }
+}
+@media screen and (max-width:315px){
+  .Iniciar_Sesion{
+    width: 275px;
+    height: auto;
+    left: 7%;
+  }
+}
+@media screen and (max-width:300px){
+  .Iniciar_Sesion{
+    width: 275px;
+    height: auto;
+    left: 5%;
+  }
+}
+@media screen and (max-width:290px){
+  .Iniciar_Sesion{
+    width: 275px;
+    height: auto;
+    left: 1%;
+  }
+}
